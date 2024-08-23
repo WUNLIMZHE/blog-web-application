@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/blog.css">
+  <link rel="icon" type="image/x-icon" href="images/blogger (1).png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>CulinaryCraftsman23</title>
+</head>
+<body>
+  <%- include("./partials/header.ejs") %>
+  <div class="blog-container">
+    <div class="firstrow">
+      <div class="blog-header">
+        <p class="blog-name">Kitchen Creations: Crafting Delicious Homemade Delights</p>
+      </div>
+    </div>
+    <div class="secondrow">
+      <div class="card">
+        <p class="blog-title">Homemade Pizzas: A Scrumptious Symphony of Health and Flavor<p>
+        <p class="blog-date">Dec 7, 2017<p>
+        <div class="fakeimg">
+          <img class="blog-image" src="images/top-blog-3.webp" alt="homade pizza">
+        </div>
+        <p>
+          Embarking on the journey of crafting homemade pizzas not only promises a palate-pleasing experience but also opens the door 
+          to a healthier culinary adventure. Breaking away from the limitations of store-bought alternatives, homemade pizzas offer 
+          a canvas for culinary creativity that marries delectable taste with wholesome ingredients.
+          <br />
+          <br />
+          The beauty of homemade pizzas lies in the hands-on approach, enabling enthusiasts to curate a healthier version by selecting 
+          fresh, high-quality components. Whole-grain crusts, vibrant vegetables, lean proteins, and thoughtful seasoning choices become 
+          the building blocks of a nutritious and delicious masterpiece. By sidestepping excessive oils and processed additives, 
+          homemade pizza becomes a guilt-free indulgence, proving that health-conscious decisions need not compromise on flavor.
+          <br />
+          <br />
+          In the realm of homemade pizzas, the kitchen transforms into a culinary playground where individuals can experiment with 
+          diverse toppings and inventive combinations, tailoring each slice to personal preferences. The result is a delightful 
+          convergence of health and taste, showcasing that homemade pizzas are not just a treat for the taste buds but also a 
+          celebration of mindful eating and culinary craftsmanship.
+        </p>
+      </div>
+    </div>
+
+    <div class="rightcolumn">
+      <div class="card">
+        <div class="blog-header">
+          <p class="blogger-title">About the blogger:</p>
+          <p class="blogger-username">CulinaryCraftsman23</p>
+        </div>
+        <div><img class="profile" src="images/profile-3.jpeg" alt="chef profile picture"></div>
+        <p class="blogger-about">
+          I'm a passionate home cook sharing recipes and culinary adventures. 
+          Join me as I explore the joys of cooking and crafting delicious homemade delights.
+        </p>
+      </div>
+    </div>
+  </div>
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
